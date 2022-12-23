@@ -1,3 +1,63 @@
+@font-face {
+  font-family: Bodoniflf;
+  src: url('../public/Bodoniflf.ttf');
+}
+
+.mainImage {
+  width: 400px;
+  height: 400px;
+}
+
+#mainStatute {
+  padding-top: 0px;
+}
+
+#statuteList {
+  width: 75%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+#mainList {
+  list-style: upper-roman;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#mainText {
+  font-size: 100px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: Bodoniflf;
+}
+
+#description {
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0px 25px 0px 25px;
+}
+
+.content {
+  background-image: url("./img/site/background.jpeg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  color: white;
+  margin-top: 66px;
+  text-shadow: 4px 4px 4px #000000;
+  overflow-y: scroll;
+  padding: 50px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +70,58 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@media (orientation: portrait) {
+
+#statuteList {
+  width: 100%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.mainImage {
+  width: 200px;
+  height: 200px;
+}
+
+#mainText {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#description {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#mainList {
+  list-style: upper-roman;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+
+.content {
+  background-image: url("./img/site/background.jpeg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  color: white;
+  margin-top: 66px;
+  text-shadow: 2px 2px 4px #000000;
+  overflow-y: scroll;
+  padding: 50px;
+}
 }
