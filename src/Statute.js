@@ -15,7 +15,7 @@ let Statute = () => {
                     </ol>
                     <h3><li>Warunki uczestnictwa</li></h3>
                     <ol>
-                        <li>Wysłanie zgłoszenia na konkurs do godziny 23:59 dnia 13.02.2023 za pośrednictwem formularza zgłoszeniowego, dostępnego na stronie www.konkurs.zsi.kielce.pl w zakładce zgłoszenie lub na ogłoszeniach wiszących w szkole.</li>
+                        <li>Wysłanie zgłoszenia na konkurs do godziny 23:59 dnia 13.02.2023 za pośrednictwem formularza zgłoszeniowego, dostępnego na stronie cosplayzsi.netlify.app w zakładce zgłoszenie lub na ogłoszeniach wiszących w szkole.</li>
                         <li>Przy zgłoszeniach należy podać imię i nazwisko, klasę, adres email uczestnika oraz obraz (planszę elektroniczną) ukazującą postać, za którą się przebraliśmy. Będzie wyświetlana na rzutniku podczas prezentacji. <br />Wymogi:<br />- nazwa pliku taka jak nazwa postaci<br />- format pliku *.jpg<br />- rozdzielczość minimalna 1024x768. Może to być zwykły obrazek z Internetu z prezentowaną postacią.</li>
                         <li>Każdy uczestnik może zgłosić jeden strój.</li>
                         <li>Można występować solo lub w grupach dowolnego rozmiaru.</li>
@@ -58,7 +58,7 @@ let Statute = () => {
                     <h3><li>Postanowienia Końcowe</li></h3>
                     <ol>
                         <li>Uczestnictwo w Konkursie jest dobrowolne.</li>
-                        <li>Regulamin jest dostępny na stronie konkurs.zsi.kielce.pl.</li>
+                        <li>Regulamin jest dostępny na stronie cosplayzsi.netlify.app.</li>
                         <li>Organizator zastrzega sobie prawo do zmian w regulaminie, w takiej sytuacji uczestnicy będą informowani na bieżąco o zmianach.</li>
                         <li>Organizatorzy Konkursu nie mogą brać udziału w konkursie cosplay.</li>
                     </ol>
