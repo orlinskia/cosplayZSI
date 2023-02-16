@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 let Statute = () => {
     return (
         <div className="content" id="mainStatute">
@@ -7,7 +9,7 @@ let Statute = () => {
                     <h3><li>Postanowienia ogólne</li></h3>
                     <ol>
                         <li>Organizatorem konkursu “Cosplay ZSI” (zwanego dalej Konkursem) jest Zespół Szkół Informatycznych w Kielcach (zwany dalej Organizatorem lub ZSI).</li>
-                        <li>Konkurs odbędzie się o godzinie 11:15 dnia 21.02.2023 na holu głównym ZSI.</li>
+                        <li>Konkurs odbędzie się o godzinie 11:15 dnia 20.02.2023 na holu głównym ZSI.</li>
                         <li>Konkurs ma na celu popularyzowanie fantastyki oraz środowiska kostiumowego, zwłaszcza w zakresie kostiumów związanych z grami i komiksami.</li>
                         <li>Zadaniem uczestników konkursu jest własnoręczne wykonanie kostiumu lub jego zakup i zaprezentowanie na scenie w trakcie konkursu przed publicznością ZSI oraz jurorami. Uczestnicy mogą wcielać się w postaci z mang, anime, gier konsolowych lub komputerowych, książek, filmów, komiksów, seriali.</li>
                         <li>Prezentowane stroje nie powinny zawierać treści powszechnie uważanych za wulgarne lub obraźliwe. Zabronione jest również propagowanie materiałów lub symboli nawołujących do nienawiści rasowej, obrażających wyznania religijne oraz niezgodne z obowiązującym w Polsce prawem.</li>
@@ -15,7 +17,7 @@ let Statute = () => {
                     </ol>
                     <h3><li>Warunki uczestnictwa</li></h3>
                     <ol>
-                        <li>Wysłanie zgłoszenia na konkurs do godziny 23:59 dnia 13.02.2023 za pośrednictwem formularza zgłoszeniowego, dostępnego na stronie cosplayzsi.netlify.app w zakładce zgłoszenie lub na ogłoszeniach wiszących w szkole.</li>
+                        <li>Wysłanie zgłoszenia na konkurs do godziny 23:59 dnia 19.02.2023 za pośrednictwem formularza zgłoszeniowego, dostępnego na stronie cosplayzsi.netlify.app w zakładce zgłoszenie lub na ogłoszeniach wiszących w szkole.</li>
                         <li>Przy zgłoszeniach należy podać imię i nazwisko, klasę, adres email uczestnika oraz obraz (planszę elektroniczną) ukazującą postać, za którą się przebraliśmy. Będzie wyświetlana na rzutniku podczas prezentacji. <br />Wymogi:<br />- nazwa pliku taka jak nazwa postaci<br />- format pliku *.jpg<br />- rozdzielczość minimalna 1024x768. Może to być zwykły obrazek z Internetu z prezentowaną postacią.</li>
                         <li>Każdy uczestnik może zgłosić jeden strój.</li>
                         <li>Można występować solo lub w grupach dowolnego rozmiaru.</li>
@@ -63,6 +65,8 @@ let Statute = () => {
                         <li>Organizatorzy Konkursu nie mogą brać udziału w konkursie cosplay.</li>
                     </ol>
                 </ol>
+                <hr />
+            <Footer />
             </div>
         </div>
     );

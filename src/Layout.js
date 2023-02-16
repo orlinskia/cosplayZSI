@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Container, Image, Nav, Navbar, NavbarBrand } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import Footer from "./Footer";
 
 let Layout = () => {
     return (

@@ -6,6 +6,7 @@ import MainPage from './MainPage';
 import Statute from './Statute';
 import Participants from './Participants';
 import Gallery from './Gallery';
+import Footer from './Footer';
 
 let App = () => {
   return (
@@ -16,6 +17,7 @@ let App = () => {
           <Route path="regulamin" element={<Statute/>}/>
           {/* <Route path="uczestnicy" element={<Participants/>}/>
           <Route path="galeria" element={<Gallery />}/> */}
+          
         </Route>
       </Routes>
     </BrowserRouter>
