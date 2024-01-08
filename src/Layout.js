@@ -3,9 +3,9 @@ import { Container, Image, Nav, Navbar, NavbarBrand } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import Footer from "./Footer";
 
+
 let Layout = () => {
     return (
-
         <div id="layout">
 
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -29,11 +29,11 @@ let Layout = () => {
 
                             {/* <LinkContainer to="/uczestnicy">
                                 <Nav.Link>Uczestnicy</Nav.Link>
-                            </LinkContainer>
+                            </LinkContainer> */}
 
                             <LinkContainer to="/galeria">
                                 <Nav.Link>Galeria</Nav.Link>
-                            </LinkContainer> */}
+                            </LinkContainer>
 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAFTPA6JiO8JzCO2d-uwiFx7Jlo7TrSJ5LEGlhdRcfCRPHg/viewform" target="_blank" className="nav-link">Zgłoś się</a>
 
