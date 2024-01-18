@@ -15,8 +15,8 @@ let App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage/>}/>
           <Route path="regulamin" element={<Statute/>}/>
-          {/* <Route path="uczestnicy" element={<Participants/>}/>
-          <Route path="galeria" element={<Gallery />}/> */}
+          {/* <Route path="uczestnicy" element={<Participants/>}/> */}
+          <Route path="galeria" element={<Gallery />}/>
           
         </Route>
       </Routes>
