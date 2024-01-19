@@ -32,7 +32,7 @@ let Layout = () => {
 
                                 <NavDropdown.Item>
                                     <LinkContainer to="/regulamin-manga">
-                                        <Nav.Link disabled>Konkurs Manga</Nav.Link>
+                                        <Nav.Link>Konkurs Manga</Nav.Link>
                                     </LinkContainer>
                                 </NavDropdown.Item>
                             </NavDropdown>

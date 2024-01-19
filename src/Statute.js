@@ -30,7 +30,12 @@ let Statute = () => {
                         <li>W drodze głosowania Jury wybierze trzech zwycięzców konkursu.</li>
                         <li>Decyzje Jury są jawne, a także ostateczne i nie podlegają zaskarżeniu.</li>
                         <li>Zwycięzcy Konkursu otrzymują prawo do odebrania Nagrody.</li>
-                        <li>Nagrody:<br />- za pierwsze miejsce nagroda niespodzianka o wartości 50zł oraz talon zwalniający z odpowiedzi;<br />- za drugie i trzecie miejsce talon zwalniający z odpowiedzi</li>
+                        <li>Nagrody:</li>
+                            <ul>
+                                <li>za pierwsze miejsce nagroda niespodzianka o wartości 50zł oraz talon zwalniający z odpowiedzi;</li>
+                                <li>za drugie i trzecie miejsce talon zwalniający z odpowiedzi</li>
+                            </ul>
+
                         <li>W ramach konkursu każdy jego uczestnik zwolniony z odpowiedzi na lekcjach.</li>
                         <li>W czasie Konkursu odbędzie się również zabawa Kahoot o tematyce cosplay.</li>
                         <li>Organizator oświadcza, że wynik Konkursu nie zależy w żadnym stopniu od jakiegokolwiek czynnika losowego, a mechanizm Konkursu nie ma nic wspólnego z grami losowymi w rozumieniu ustawy "O grach losowych, zakładach wzajemnych i grach na automatach" (Dz. U. z 1998 r. Nr 102, poz. 650, Nr 145, poz. 946, Nr 155, poz. 1014 i Nr 160, poz. 1061 oraz z 2000 r. Nr 9, poz. 117.w raz z późn. Zmianami).</li>
@@ -38,7 +43,13 @@ let Statute = () => {
                     <h3><li>Prawa Autorskie</li></h3>
                     <ol>
                         <li>Wyrażona przez uczestnika zgoda na wykorzystanie wizerunku jest nieodpłatana i z tego tytułu uczestnik nie będzie dochodził względem organizatora żadnych roszczeń.</li>
-                        <li>Zgłaszając się do udziału w Konkursie, uczestnik oświadcza, iż:<br />- wykorzystywany strój skomponował samodzielnie z dostępnych mu materiałów lub jest to gotowy strój zakupiony np. w internecie,<br />- przedstawiona prezentacja nie narusza praw innych osób, w tym praw osobistych, materialnych oraz autorskich,<br />- wszystkie informacje podane w formularzu rejestracyjnym są prawdziwe.</li>
+                        <li>Zgłaszając się do udziału w Konkursie, uczestnik oświadcza, iż:</li>
+                        <ul>
+                            <li>wykorzystywany strój skomponował samodzielnie z dostępnych mu materiałów lub jest to gotowy strój zakupiony np. w internecie,</li>
+                            <li>przedstawiona prezentacja nie narusza praw innych osób, w tym praw osobistych, materialnych oraz autorskich,</li>
+                            <li>wszystkie informacje podane w formularzu rejestracyjnym są prawdziwe.</li>
+                        </ul>
+
                         <li>Uczestnik przystępując do Konkursu jednocześnie wyraża zgodę na prezentację wykonanych przez Organizatora w ramach sesji fotograficznych i nagrań wideo, podczas występów scenicznych i poza nimi – zdjęć i nagrań w dowolnej wybranej przez Organizatora formie, w tym drukiem na papierze, nośnikach cyfrowych i innych, w sieci Internet; na powielanie i rozpowszechnianie dowolną techniką i w dowolnych nakładach. Zdjęcia i nagrania wymienione powyżej stanowią całkowitą i wyłączną własność Organizatora z uwzględnieniem szczególnych praw przysługujących ich autorom. Przedmiotowa zgoda obejmuje również nazwy prezentowanych postaci.</li>
                         <li>Uczestnik może domagać się zaprzestania publicznego udostępniania zdjęć z jego wizerunkiem, lecz tylko w przypadku, gdy te mogą w istotny sposób naruszać jego godność osobistą. </li>
                     </ol>

@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './Layout';
 import MainPage from './MainPage';
 import Statute from './Statute';
-import Participants from './Participants';
 import Gallery from './Gallery';
-import Footer from './Footer';
+import StatuteManga from "./StatuteManga";
 
 let App = () => {
   return (
@@ -15,7 +13,7 @@ let App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage/>}/>
           <Route path="regulamin" element={<Statute/>}/>
-          {/* <Route path="uczestnicy" element={<Participants/>}/> */}
+          <Route path="regulamin-manga" element={<StatuteManga />}/>
           <Route path="galeria" element={<Gallery />}/>
           
         </Route>
