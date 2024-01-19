@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Container, Image, Nav, Navbar, NavbarBrand } from "react-bootstrap";
+import {Container, Image, Nav, Navbar, NavbarBrand, NavDropdown} from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import Footer from "./Footer";
 
@@ -23,9 +23,19 @@ let Layout = () => {
                                 <Nav.Link>Strona główna</Nav.Link>
                             </LinkContainer>
 
-                            <LinkContainer to="/regulamin">
-                                <Nav.Link>Regulamin</Nav.Link>
-                            </LinkContainer>
+                            <NavDropdown title="Regulamin" menuVariant="dark">
+                                <NavDropdown.Item>
+                                    <LinkContainer to="/regulamin">
+                                        <Nav.Link>Konkurs Cosplay</Nav.Link>
+                                    </LinkContainer>
+                                </NavDropdown.Item>
+
+                                <NavDropdown.Item>
+                                    <LinkContainer to="/regulamin-manga">
+                                        <Nav.Link disabled>Konkurs Manga</Nav.Link>
+                                    </LinkContainer>
+                                </NavDropdown.Item>
+                            </NavDropdown>
 
                             {/* <LinkContainer to="/uczestnicy">
                                 <Nav.Link>Uczestnicy</Nav.Link>
