@@ -1,0 +1,29 @@
+.imageVertical {
+    width: 30%;
+}
+
+.imageHorizontal {
+    width: 45%;
+}
+
+@media (orientation: portrait) {
+
+    .imageVertical {
+        width: 90%;
+    }
+
+    .imageHorizontal {
+        width: 90%;
+    }
+}
+
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+
+    .imageVertical {
+        width: 43%;
+    }
+
+    .imageHorizontal {
+        width: 43%;
+    }
+}

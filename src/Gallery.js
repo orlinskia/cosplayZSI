@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import {Image} from "react-bootstrap";
+import './Gallery.css';
 
 let Gallery = () => {
     const imageList = [
@@ -31,7 +32,7 @@ let Gallery = () => {
 
     return(
         <div className="content text-center">
-            {imageList.map(path => <Image className="w-25 m-3" src={require("./img/zdjecia/" + path)} rounded />)}
+            {imageList.map(path => <Image className="imageVertical m-3" src={require("./img/zdjecia/" + path)} rounded />)}
         <hr />
         <Footer />
         </div>
